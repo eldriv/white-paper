@@ -500,7 +500,6 @@ network of interrelated volume groupings.
 [[./images/4.png]]
 
 
-
 * Formula
 
 A formula serves as the atomic building blocks of input data within the system.
@@ -551,7 +550,7 @@ complex-formula ::= '(' label newline
 
 The following formulae correspond to and demonstrate the structures from the Backus-Naur form text above respectively,
 
-***** Basic formula
+** Basic formula
 #+BEGIN_SRC lisp
 (:galileo [Galileo Galilei]
  :occupation [philosopher])
@@ -565,7 +564,7 @@ The following formulae correspond to and demonstrate the structures from the Bac
 => philosopher
 #+END_SRC
 
-***** Reflexive formula
+** Reflexive formula
 #+BEGIN_SRC lisp
 (:galileo [Galileo Galilei])
 (:vincenzo [Vincenzo Galilei])
@@ -585,7 +584,7 @@ The following formulae correspond to and demonstrate the structures from the Bac
 => Amazing Vincenzo Galilei
 #+END_SRC
 
-***** Complex formula
+** Complex formula
 #+begin_src lisp
 (:occupation [philosopher])
 (:galileo [Galileo Galilei
@@ -704,7 +703,11 @@ things in terms of honeybees---individually and without the connection to the
 hive, they behave rather simplistically. However, with a rabble, they are able
 to form a collective consciousness---a hive mind.
 
-#+LATEX: \hfill\break
-/Thanks to Kamil Shakirov, Chris Petersen, and Carlo Poblete for reviewing the draft of this whitepaper. Special thanks to Xavier Bethune\textdagger{} and Robert Pineda for funding this research./
+* Acknowledgements
+
+Thanks to Kamil Shakirov, Chris Petersen, and Carlo Poblete for reviewing the
+draft of this whitepaper; special thanks to Xavier Bethune\textdagger{} and
+Robert Pineda for funding this research; and thanks to Michael Adrian Villareal
+for adding the formula section.
 
 #+LATEX: \printbibliography[title={Bibliography}]
